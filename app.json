@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "KofuBlog",
+    "slug": "KofuBlog",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kofu.blog"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#222"
+      },
+      "package": "com.kofu.blog",
+      "versionCode": 1,
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "softwareKeyboardLayoutMode": "pan",
+      "statusBar": {
+        "backgroundColor": "#222",
+        "barStyle": "light-content"
+      },
+      "navigationBar": {
+        "backgroundColor": "#222",
+        "barStyle": "light-content"
+      },
+      "androidNavigationBar": {
+        "backgroundColor": "#222",
+        "barStyle": "light-content",
+        "navigationBarColor": "#222",
+        "navigationBarDividerColor": "#222",
+        "navigationBarContrastEnforced": true,
+        "navigationBarIconColor": "#fff",
+        "navigationBarButtonColor": "#fff",
+        "navigationBarTextColor": "#fff"
+      },
+      "androidStatusBar": {
+        "backgroundColor": "#222",
+        "barStyle": "light-content"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b027d2e0-7269-4901-a440-4707e8a70176"
+      }
+    }
+  }
+}
